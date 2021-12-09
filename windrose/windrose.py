@@ -929,7 +929,7 @@ def plot_windrose_df(
 ):
     var = df[var_name].values
     direction = df[direction_name].values
-    return plot_windrose_np(direction, var, by=by, rmax=rmax, fig=fig, **kwargs)
+    return plot_windrose_np(direction, var, kind=kind, by=by, rmax=rmax, fig=fig, **kwargs)
 
 
 def plot_windrose_np(
